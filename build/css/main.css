@@ -18,7 +18,7 @@
 }
 .header .list-item {
   display: inline;
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -57,14 +57,14 @@
   box-sizing: border-box;
   position: relative;
 }
-.topics-header .topics-heading {
-  font-family: SpectralSC;
+.topics-heading {
+  font-family: 'Spectral SC';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 55px;
 }
-.topics-header .select {
+.select {
   margin-top: 30px;
   margin-bottom: 30px;
   width: 203px;
@@ -72,58 +72,65 @@
   background: #D7D1C9;
   border-radius: 10px;
   appearance: none;
-}
-.topics-header .select-text {
-  position: absolute;
-  right: 35px;
-  top: 40px;
-  font-family: Open Sans;
+  padding-left: 20px;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #2E2F22;
 }
-.topics-header .select-text::after {
+.select-text {
+  position: absolute;
+  right: 35px;
+  top: 40px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+}
+.select-text::after {
   content: "▼";
   color: #FFFFFF;
   margin-left: 35px;
   font-size: 16px;
-  font-stretch: ultra-expanded;
+  font-stretch: u;
 }
 .small-topics {
   display: flex;
   flex-wrap: wrap;
 }
-.small-topics .small-topic {
+.small-topic {
   width: 387px;
   margin-right: 20px;
 }
-.small-topics .small-topic .text-topic-small {
-  font-family: SpectralSC;
+.small-topic:last-child {
+  margin-right: 0;
+}
+.text-topic-small {
+  font-family: 'Spectral SC';
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   color: #2E2F22;
 }
-.small-topics .small-topic .paragraph-topic-small {
-  font-family: Open Sans;
+.paragraph-topic-small {
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   color: #2E2F22;
 }
-.small-topics .small-topic:last-child {
-  margin-right: 0;
-}
 .tags-text {
   display: flex;
   justify-content: space-between;
 }
 .tags-text .tag-text {
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -150,7 +157,7 @@
   margin-right: 20px;
 }
 .big-topics .big-topic .text-topic-big {
-  font-family: SpectralSC;
+  font-family: 'Spectral SC';
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -158,7 +165,7 @@
   color: #FFFFFF;
 }
 .big-topics .big-topic .paragraph-topic-big {
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -176,8 +183,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   width: 224px;
-  height: 46px;
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -185,6 +191,8 @@
   margin: 100px auto;
   display: block;
   background-color: #FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 body {
   margin: 0;

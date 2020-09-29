@@ -7,86 +7,86 @@
     justify-content: space-between;
     box-sizing: border-box;
     position: relative;
-    .topics-heading {
-        font-family: SpectralSC;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 55px;
-    }
-    .select {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        width: 203px;
-        height: 46px;
-        background: #D7D1C9;
-        border-radius: 10px;
-        appearance: none;
-    }
-    .select-text {
-        position: absolute;
-        right: 35px;
-        top: 40px;
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 22px;
-        color: #2E2F22;
-    }
-    .select-text::after {
-        content: "▼";
-        color: #FFFFFF;
-        margin-left: 35px;
-        font-size: 16px;
-        font-stretch: ultra-expanded;
-    }
 }
-
-
+.topics-heading {
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+}
+.select {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 203px;
+    height: 46px;
+    background: #D7D1C9;
+    border-radius: 10px;
+    appearance: none;
+    padding-left: 20px;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+}
+.select-text {
+    position: absolute;
+    right: 35px;
+    top: 40px;
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2E2F22;
+}
+.select-text::after {
+    content: "▼";
+    color: #FFFFFF;
+    margin-left: 35px;
+    font-size: 16px;
+    font-stretch: u;
+}
 .small-topics {
     display: flex;
     flex-wrap: wrap;
-    
-    .small-topic {
-        width: 387px;
-        margin-right: 20px;
-        .text-topic-small {
-            font-family: SpectralSC;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 27px;
-            color: #2E2F22;
-        }
-        .paragraph-topic-small {
-            font-family: Open Sans;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 26px;
-            color: #2E2F22;
-        }
-        
-
-    }
-    .small-topic:last-child {
-        margin-right: 0;
-    }
+}
+.small-topic {
+    width: 387px;
+    margin-right: 20px;
+}
+.small-topic:last-child {
+    margin-right: 0;
+}
+.text-topic-small {
+    font-family: 'Spectral SC';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+.paragraph-topic-small {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2E2F22;
 }
 .tags-text {
     display: flex;
     justify-content: space-between;
     .tag-text {
-        font-family: Open Sans;
+        font-family: 'OpenSans';
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
         line-height: 26px;
         color: rgba(46, 47, 34, 0.7);
         margin-top: 0;
-       
-
     }
     .big {
         color: rgba(255, 255, 255, 0.7);
@@ -109,7 +109,7 @@
         padding-right: 80px;
         margin-right: 20px;
         .text-topic-big {
-            font-family: SpectralSC;
+            font-family: 'Spectral SC';
             font-style: normal;
             font-weight: bold;
             font-size: 22px;
@@ -118,7 +118,7 @@
             
         }
         .paragraph-topic-big {
-            font-family: Open Sans;
+            font-family: 'OpenSans';
             font-style: normal;
             font-weight: normal;
             font-size: 21px;
@@ -139,8 +139,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     width: 224px;
-    height: 46px;
-    font-family: Open Sans;
+    font-family: 'OpenSans';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -148,4 +147,6 @@
     margin: 100px auto;
     display: block;
     background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
