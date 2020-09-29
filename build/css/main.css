@@ -48,6 +48,49 @@
   font-family: OpenSans-LightItalic;
   src: url("../../fonts/Open_Sans/OpenSans-LightItalic.ttf");
 }
+.topics {
+  position: relative;
+}
+.topics-header {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+}
+.topics-header .topics-heading {
+  font-family: SpectralSC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+}
+.topics-header .select {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 203px;
+  height: 46px;
+  background: #D7D1C9;
+  border-radius: 10px;
+  appearance: none;
+}
+.topics-header .select-text {
+  position: absolute;
+  right: 35px;
+  top: 40px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+}
+.topics-header .select-text::after {
+  content: "▼";
+  color: #FFFFFF;
+  margin-left: 35px;
+  font-size: 16px;
+  font-stretch: ultra-expanded;
+}
 .small-topics {
   display: flex;
   flex-wrap: wrap;
@@ -141,18 +184,12 @@
   line-height: 22px;
   margin: 100px auto;
   display: block;
+  background-color: #FFFFFF;
 }
 body {
   margin: 0;
 }
-.main-inner {
+.main-page {
   width: 1201px;
   margin: auto;
-}
-.main-heading {
-  font-family: SpectralSC;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 55px;
 }
