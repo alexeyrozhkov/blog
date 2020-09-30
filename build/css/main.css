@@ -242,20 +242,17 @@
   margin-top: 40px;
 }
 .aside-text {
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: italic;
   font-weight: normal;
   font-size: 30px;
   line-height: 40px;
 }
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   margin-top: 50px;
 }
 .portfolio-header {
-  align-self: center;
+  text-align: center;
   font-family: 'Spectral SC';
   font-style: normal;
   font-weight: bold;
@@ -325,7 +322,10 @@
   color: #2E2F22;
   text-align: center;
 }
-.forms {
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../../assets/form-img.png");
   width: 996px;
   height: 637px;
@@ -333,10 +333,9 @@
   box-sizing: border-box;
   padding-top: 50px;
 }
-.forms-inner {
+.form-inner {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .form-item {
   margin-right: 20px;
@@ -367,7 +366,6 @@
   font-size: 16px;
   line-height: 22px;
   color: #202117;
-  opacity: 0.7;
 }
 .form-textrea {
   margin-top: 30px;
@@ -390,16 +388,18 @@
 }
 .footer {
   background: #D7D1C9;
-  height: 181px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 55px;
+  padding: 80px;
 }
 .footer-lists {
   list-style: none;
   display: flex;
   justify-content: space-around;
   width: 50%;
+  margin: 0;
 }
 .footer-list {
   font-family: 'OpenSans';
@@ -416,4 +416,7 @@ body {
   width: 1201px;
   margin: auto;
   margin-bottom: 80px;
+}
+button:hover {
+  cursor: pointer;
 }

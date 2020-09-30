@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <button class="section-button">
+            <button type="button" class="section-button">
                 Показать ещё
             </button>  
         </section>
@@ -149,31 +149,31 @@
                     </p>
                 </div>
             </div>
-            <button class="section-button">
+            <button type="button" class="section-button">
                 ПОКАЗАТЬ ЕЩЕ
             </button> 
         </section>
         <section class="relation">
             <h2 class="relation-header">Написать мне</h2>
-            <div class="forms">
-                <form class="forms-inner">
-                    <div class="form-item">
-                        <label class="label" for="name">Ваше имя</label>
-                        <input class="input-elem" type="text" id="name"  name="name" placeholder="Иван Иванов">
-                    </div>
-                    <div class="form-item">
-                        <label class="label" for="email">Email</label>
-                        <input class="input-elem" type="email" id="email"  name="email" placeholder="google@gmail.com"> 
+                <form class="form">
+                    <div class="form-inner">
+                        <div class="form-item">
+                            <label class="label" for="name">Ваше имя</label>
+                            <input class="input-elem" type="text" id="name"  name="name" placeholder="Иван Иванов" min="10" max="200">
+                        </div>
+                        <div class="form-item">
+                            <label class="label" for="email">Email</label>
+                            <input class="input-elem" type="email" id="email"  name="email" placeholder="google@gmail.com" min="10" max="200"> 
+                        </div>
                     </div>
                     <div class="form-textrea">
                         <label class="label" for="message">Сообщение</label>
                         <textarea class="message" id="message" name="message" placeholder="Напишите здесь ваше сообщение."></textarea>
                     </div>
-                    <button class="section-button form-button">
+                    <button type="button" class="section-button form-button">
                         ОТПРАВИТЬ
                     </button> 
                 </form>
-            </div>
         </section>
     </main>
     <footer class="footer">
