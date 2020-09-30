@@ -381,12 +381,33 @@
   height: 293px;
   padding: 15px;
   overflow-y: scroll;
-  font-family: Open Sans;
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #202117;
+}
+.footer {
+  background: #D7D1C9;
+  height: 181px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.footer-list {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2E2F22;
 }
 body {
   margin: 0;
@@ -394,4 +415,5 @@ body {
 .main-page {
   width: 1201px;
   margin: auto;
+  margin-bottom: 80px;
 }
