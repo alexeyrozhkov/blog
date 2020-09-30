@@ -121,7 +121,7 @@
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   color: #2E2F22;
 }
@@ -160,7 +160,7 @@
   font-family: 'Spectral SC';
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 30px;
   color: #FFFFFF;
 }
@@ -168,7 +168,7 @@
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
 }
@@ -193,6 +193,55 @@
   background-color: #FFFFFF;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.resume-header {
+  align-self: center;
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2E2F22;
+}
+.resume-inner {
+  display: flex;
+}
+.resume-inner-block {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.resume-inner-block .text {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2E2F22;
+  margin-bottom: 40px;
+}
+.resume-inner-block .text:last-child {
+  margin-bottom: 0;
+}
+.resume-inner-block .link {
+  border-bottom: 1px solid black;
+}
+.resume-inner-block-aside {
+  border-left: 3px solid #D7D1C9;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 40px;
+}
+.aside-text {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
 }
 body {
   margin: 0;
