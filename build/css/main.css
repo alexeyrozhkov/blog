@@ -194,6 +194,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.form-button {
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: transparent;
+}
 .resume {
   display: flex;
   flex-wrap: wrap;
@@ -310,6 +315,78 @@
 }
 .third {
   background-image: url("../../assets/portfolio-img-third.png");
+}
+.relation-header {
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2E2F22;
+  text-align: center;
+}
+.forms {
+  background-image: url("../../assets/form-img.png");
+  width: 996px;
+  height: 637px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+.forms-inner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form-item {
+  margin-right: 20px;
+}
+.form-item:last-child {
+  margin-right: 0;
+}
+.label {
+  display: block;
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2E2F22;
+}
+.input-elem {
+  display: inline-block;
+  width: 407px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #202117;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202117;
+  opacity: 0.7;
+}
+.form-textrea {
+  margin-top: 30px;
+}
+.message {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 837px;
+  height: 293px;
+  padding: 15px;
+  overflow-y: scroll;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #202117;
 }
 body {
   margin: 0;
