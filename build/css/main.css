@@ -32,6 +32,9 @@
   width: 155px;
   height: 110px;
 }
+.motivation {
+  background-image: url("../../assets/header-motivation.png");
+}
 @font-face {
   font-family: OpenSans;
   src: url("../../fonts/Open_Sans/OpenSans-Regular.ttf");
@@ -141,6 +144,9 @@
 .tags-text .big {
   color: rgba(255, 255, 255, 0.7);
 }
+.tags-motivation {
+  width: 320px;
+}
 .big-topics {
   display: flex;
   flex-wrap: wrap;
@@ -198,6 +204,9 @@
   margin-top: 20px;
   margin-bottom: 0;
   background-color: transparent;
+}
+.personal-data-button {
+  margin-top: 50px;
 }
 .resume {
   display: flex;
@@ -408,6 +417,163 @@
   font-size: 18px;
   line-height: 25px;
   color: #2E2F22;
+}
+.main-motivation {
+  margin-top: 90px;
+}
+.main-motivation-header {
+  font-family: 'Spectral SC';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2E2F22;
+}
+.main-motivation-text {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2E2F22;
+  margin-top: 20px;
+}
+.small {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.main-motivation-img {
+  margin-top: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.like {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+.like .text {
+  align-self: flex-end;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.messengers {
+  display: flex;
+  justify-content: space-between;
+}
+.messenger {
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+}
+.messenger:last-child {
+  margin-right: 0;
+}
+.motivation-link {
+  display: block;
+  position: relative;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #2E2F22;
+  margin-top: 50px;
+}
+.motivation-link::after {
+  content: "→";
+  position: absolute;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  bottom: 3px;
+  margin-left: 20px;
+}
+.comments {
+  margin-top: 75px;
+}
+.comments-inner {
+  background: #ECE1E1;
+  border-radius: 10px;
+  width: 793px;
+  padding: 40px 100px;
+}
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+.avatar-name {
+  margin-left: 10px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+}
+.comment-text {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+}
+.comment-form {
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.comment-form-header {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2E2F22;
+  margin-bottom: 75px;
+}
+.feedback {
+  display: flex;
+}
+.personal-data .input {
+  border: none;
+  border-bottom: 1px solid #2E2F22;
+  padding-bottom: 10px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+  display: block;
+  width: 220px;
+  margin-bottom: 45px;
+}
+.feedback-text {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.feedback-text-message {
+  width: 406px;
+  height: 208px;
+  border: 1px solid #2E2F22;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2E2F22;
+  padding: 20px;
 }
 body {
   margin: 0;
