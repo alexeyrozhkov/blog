@@ -27,12 +27,16 @@
             <div class="topics-header">
                 <h1 class="topics-heading">Все статьи</h1>
                 <select class="select">
-                    <option class="select-option">Выбрать тему</option>
+                    <option class="select-option" value="all" selected>Выбрать тему</option>
+                    <option class="select-option" value="trevel">путешествия</option>
+                    <option class="select-option" value="city">город</option>
+                    <option class="select-option" value="book">книги</option>
+                    <option class="select-option" value="recipe">рецепты</option>
                 </select>
                 <span class="select-text"></span>
             </div>
             <div class="small-topics">
-                <div class="small-topic">
+                <div class="small-topic article" data-category="trevel">
                     <img src="assets/topics-img-berlin.png">
                     <h2 class="text-topic-small">Путешествие в Берлин в августе </h2>
                     <p class="paragraph-topic-small">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
@@ -41,7 +45,7 @@
                         <p class="tag-text">29.09.2020</p>
                     </div>
                 </div>
-                <div class="small-topic">
+                <div class="small-topic article" data-category="city">
                     <img src="assets/topics-img-moscow.png">
                     <h2 class="text-topic-small">Где выпить колдбрю в Москве</h2>
                     <p class="paragraph-topic-small">Собрала для вас список любимых кофеен, где подают лучший летний напиток.</p>
@@ -50,7 +54,7 @@
                         <p class="tag-text">24.07.2020</p>
                     </div>
                 </div>
-                <div class="small-topic">
+                <div class="small-topic article" data-category="book">
                     <img src="assets/topics-img-books.png">
                     <h2 class="text-topic-small">Прочитано: книжные рекомендации</h2>
                     <p class="paragraph-topic-small">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
@@ -61,7 +65,7 @@
                 </div>
             </div>
             <div class="big-topics">
-                <div class="big-topic">
+                <div class="big-topic article" data-category="book">
                     <h2 class="text-topic-big">Снимки на плёнку</h2>
                     <p class="paragraph-topic-big">
                         Поделилась с вами весенними фотографиями, и секретами удачных снимков.
@@ -71,7 +75,7 @@
                         <p class="tag-text big">15.07.2020</p>
                     </div>
                 </div>
-                <div class="big-topic cook">
+                <div class="big-topic cook article" data-category="recipe">
                     <h2 class="text-topic-big">Домашний чизкейк </h2>
                     <p class="paragraph-topic-big">
                         Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!
@@ -170,7 +174,7 @@
                         <label class="label" for="message">Сообщение</label>
                         <textarea class="message" id="message" name="message" placeholder="Напишите здесь ваше сообщение."></textarea>
                     </div>
-                    <button type="button" class="section-button form-button">
+                    <button type="submit" class="section-button form-button">
                         ОТПРАВИТЬ
                     </button> 
                 </form>
@@ -184,6 +188,8 @@
             <li class="footer-list"><a>Твиттер</a></li>
         </ul>
     </footer>
+    <script src="select.js"></script>
+    <script src="task2.js"></script>
 </body>
 </html>
 

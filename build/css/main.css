@@ -586,3 +586,9 @@ body {
 button:hover {
   cursor: pointer;
 }
+.hidden {
+  display: none;
+}
+.warning {
+  color: red;
+}
