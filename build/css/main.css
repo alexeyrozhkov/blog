@@ -455,7 +455,7 @@
   border: none;
   background-color: transparent;
 }
-.like .text {
+.like-text {
   align-self: flex-end;
   font-family: 'OpenSans';
   font-style: normal;

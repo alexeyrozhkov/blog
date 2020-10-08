@@ -4,7 +4,7 @@ let form = document.querySelector('.form');
 
 
 form.onsubmit = function(e) {
-    if(commentField.value.length > 200 || commentField.value.length <= 3 ) {
+    if(commentField.value.length > 200 || commentField.value.length <= 10 ) {
         commentField.classList.add('warning');
         submitButton.disabled = true;
     }
