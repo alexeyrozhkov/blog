@@ -6,12 +6,10 @@ buttonLike.onclick = function() {
     
     if(buttonLike.classList.contains('added')) {
         counter--;
-        likeIndex.textContent = counter;
-    }else {
+    } else {
         counter ++;
-        likeIndex.textContent = counter;
     }
-
+    likeIndex.textContent = counter;
     buttonLike.classList.toggle('added');
 }
 
